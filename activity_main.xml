@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+
+
+    <EditText
+        android:id="@+id/et_judul"
+        android:layout_width="320dp"
+        android:layout_height="72dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="507dp"
+        android:ems="10"
+        android:textColor="#5E000000"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/et_deskripsi"
+        android:layout_width="318dp"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="431dp"
+        android:ems="10"
+        android:textColor="#5E000000"
+        android:inputType="textPersonName"
+        android:text="Email" />
+
+    <EditText
+        android:id="@+id/et_harga"
+        android:layout_width="318dp"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="354dp"
+        android:ems="10"
+        android:textColor="#5E000000"
+        android:inputType="textPersonName"
+        android:text="Jurusan" />
+
+    <Button
+        android:id="@+id/btn_input"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="48dp"
+        android:text="Send" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="611dp"
+        android:fontFamily="@font/poppins"
+        android:text="Welcome back!"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
+
